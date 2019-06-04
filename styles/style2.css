@@ -1,0 +1,117 @@
+/* Header */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 60px;
+    background-color: #09648c;
+    box-shadow: 0 2px 2px #BEBEBE;
+    font-family: Berlin Sans FB;
+    font-size: 19px; 
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 21px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3a83a3;
+    color: #FFFFFF;
+}
+
+li.logo {
+    float: left;
+    font-size: 25px;
+}
+
+li.logo a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+}
+
+li.logo a:hover {
+    background-color: #3a83a3;
+    color: #FFFFFF;
+}
+
+/* Header end */
+
+#box {
+	background-color: #F2F2F2;
+	height: auto;
+	width: 850px;
+	margin: auto;
+	margin-top: 80px;
+	padding: 10px;
+	border: 2px solid #C0C0C0;
+	box-shadow: 0 2px 2px #BEBEBE;
+	font-family: Times New Roman;
+}
+#footer {
+	background-color: #F2F2F2;
+	height: 10px;
+	width: 850px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid #C0C0C0;
+	box-shadow: 0 2px 2px #BEBEBE;
+	text-align: center;
+} 
+
+/* Horizontal gray line */
+
+.hline {
+	width: 100%; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 1px; 
+	background: #C0C0C0; 
+}
+
+/* Next/Previous buttons */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #3a83a3;
+    color: black;
+}
+
+.previous {
+    background-color: #09648c;
+    color: white;
+    margin-left: 750px;
+    margin-right: 10px;
+}
+
+.next {
+    background-color: #09648c;
+    color: white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+/* Next/Previous buttons end */
