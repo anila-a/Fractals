@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contests_programming>
+	<contest>
+		<id>0</id>
+		<title>Sum of matrices</title>
+		<date_started>2017/08/02</date_started>
+		<date_finished>2017/08/05</date_finished>
+		<link>contests_Sum_Of_Matrices.php</link>
+		<winner1>-</winner1>
+		<winner2>-</winner2>
+		<winner3>-</winner3>
+	</contest>
+</contests_programming>

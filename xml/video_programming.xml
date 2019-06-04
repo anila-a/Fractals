@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video_programming>
+	<video>
+		<id>0</id>
+		<title>Is there a limit to technological progress?</title>
+		<date_uploaded>2017/11/11</date_uploaded>
+		<link>video_Is_There_A_Limit_To_Technological_Progress.php</link>
+	</video>
+        <video>
+		<id>1</id>
+		<title>What's an algorithm?</title>
+		<date_uploaded>2017/11/11</date_uploaded>
+		<link>video_What's_An_Algorithm.php</link>
+	</video>
+</video_programming>

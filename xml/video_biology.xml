@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video_biology>
+	<video>
+		<id>0</id>
+		<title>Is DNA the future of data storage?</title>
+		<date_uploaded>2017/11/10</date_uploaded>
+		<link>video_Is_DNA_The_Future_Of_Data_Storage.php</link>
+	</video>
+        <video>
+		<id>1</id>
+		<title>How does your body process medicine?</title>
+		<date_uploaded>2017/11/10</date_uploaded>
+		<link>video_How_Does_Your_Body_Process_Medicine.php</link>
+	</video>
+</video_biology>

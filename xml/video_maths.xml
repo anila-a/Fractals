@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video_maths>
+	<video>
+		<id>0</id>
+		<title>The Infinite Hotel Paradox</title>
+		<date_uploaded>2017/11/10</date_uploaded>
+		<link>video_The_Infinite_Hotel_Paradox.php</link>
+	</video>
+        <video>
+		<id>1</id>
+		<title>Can you solve the prisoner hat riddle?</title>
+		<date_uploaded>2017/11/11</date_uploaded>
+		<link>video_Can_You_Solve_The_Prisoner_Hat_Riddle.php</link>
+	</video>
+</video_maths>

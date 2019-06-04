@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contests_physics>
+	<contest>
+		<id>0</id>
+		<title>Displacement</title>
+		<date_started>2017/07/20</date_started>
+		<date_finished>-</date_finished>
+		<link>contests_Displacement.php</link>
+		<winner1>anila</winner1>
+		<winner2></winner2>
+		<winner3></winner3>
+	</contest>
+</contests_physics>
