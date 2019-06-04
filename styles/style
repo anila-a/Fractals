@@ -1,0 +1,226 @@
+/* Header */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 60px;
+    overflow: hidden;
+    position: fixed;
+    background-color: #09648c;
+    box-shadow: 0 2px 2px #BEBEBE;
+    font-family: Berlin Sans FB;
+    font-size: 19px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 21px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3a83a3;
+    color: #FFFFFF;
+}
+
+li.logo {
+    float: left;
+    font-size: 25px;
+}
+
+li.logo a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+}
+
+li.logo a:hover {
+    background-color: #3a83a3;
+    color: #FFFFFF;
+}
+
+/* Hoverable Sidenav */
+
+#mySidenav a {
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding-top: 15px;
+    padding-right: 55px;
+    padding-bottom: 15px;
+    padding-left: 30px; 
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Berlin Sans FB;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#maths_portal {
+    top: 145px;
+    background-color: #4CAF50;
+}
+
+#physics_portal {
+    top: 205px;
+    background-color: #2196F3;
+}
+
+#chemistry_portal {
+    top: 265px;
+    background-color: #f44336;
+}
+
+#biology_portal {
+    top: 325px;
+    background-color: #4CAF50;
+}
+
+#programming_portal {
+    top: 385px;
+    background-color: #2196F3;
+}
+
+/* Accordion */
+
+button.accordion {
+    background-color: #e6e6e6;
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-family: Berlin Sans FB;
+    font-size: 15px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #d6d6d6;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #eeeeee;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* Accordion end */
+
+#box{
+    background-color: #F2F2F2;
+    height: auto;
+    width: 850px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px;
+    border: 2px solid #C0C0C0;
+    box-shadow: 0 2px 2px #BEBEBE;
+    font-family: Times New Roman;
+}
+
+#footer{
+	background-color: #F2F2F2;
+	height: 10px;
+	width: 850px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid #C0C0C0;
+	box-shadow: 0 2px 2px #BEBEBE;
+	text-align: center;
+} 
+
+/* Horizontal gray line */
+
+.hline{
+	width: 100%; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 1px; 
+	background: #C0C0C0; 
+}
+
+/* Portal gallery */
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 154px;  
+    border-radius: 5px;
+    display: inline-block;  
+    margin-bottom: 20px;	
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Links */
+
+a.body:link {
+        color: #09648c;
+        text-decoration: none;
+}
+
+a.body:visited {
+        color: #09648c;
+        text-decoration: none;
+}
+
+a.body:active {
+        color: #064662;
+        text-decoration: none;
+}
+
+#share-buttons img {
+        width: 35px;
+        padding: 5px;
+        border: 0;
+        box-shadow: 0;
+        display: inline;
+}
